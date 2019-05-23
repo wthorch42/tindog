@@ -1,0 +1,151 @@
+/**************************** Tag Styles ******************************/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/*************************** Class Styles *****************************/
+
+/* Headers */
+
+.header-lg {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.header-md {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.header-sm {
+  font-weight: 700;
+}
+
+/* Padding */
+
+.padded-V7-H15 {
+  padding: 7% 15%;
+}
+
+.padded-T3-H15-B7 {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.section-color {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.section-white {
+  background-color: white;
+  color: black;
+}
+
+/* Buttons */
+
+.dl-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+.feature {
+  padding: 5%;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+/* Press Section */
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Footer */
+
+.contact-icon {
+  margin: 10px;
+}
+
+/* Miscellaneous */
+
+.on-top {
+  position: relative;
+  z-index: 1;
+}
+
+.align-left {
+  text-align: left;
+}
+
+/************************** Navigation Bar****************************/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
